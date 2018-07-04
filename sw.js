@@ -4,7 +4,7 @@ self.addEventListener('install', event => {
 	event.waitUntil(
 		caches.open(staticCacheName).then(cache => {
 			return cache.addAll([
-				'/',
+				'/restaurant-review-app/',
 				'index.html',
 				'restaurant.html',
 				'css/styles.css',
