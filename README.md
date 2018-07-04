@@ -1,10 +1,13 @@
 # Restaurant Review App
 
+<img src="img/restaurant-review-app.JPG" alt="Project Screenshot">
+
 ## Table of Contents
 * [About the Project](#about-the-project)
 * [Steps to run the Project](#steps-to-run-the-project)
 * [Credits](#credits)
 * [License](#license)
+
 
 ### About the Project
 * Udacity gives the code for a restaurant review website that lacks `Accessibility` and `Offline Experience`.
