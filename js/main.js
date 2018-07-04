@@ -164,7 +164,7 @@ createRestaurantHTML = (restaurant) => {
   image.alt = restaurant.name;
   li.append(image);
 
-  const name = document.createElement('h1');
+  const name = document.createElement('h2');
   name.innerHTML = restaurant.name;
   li.append(name);
 
@@ -215,7 +215,7 @@ addMarkersToMap = (restaurants = self.restaurants) => {
  * Add the service worker
  */
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('./js/sw.js')
+  navigator.serviceWorker.register('/sw.js')
     .then(reg => {
       //Registeration Worked!
       if (reg.installing) {
@@ -224,9 +224,8 @@ if ('serviceWorker' in navigator) {
         console.log('Service worker installed.');
       } else if (reg.active) {
         console.log('Service worker active.');
-      } else {
-        console.log('Registeration succeeded. Scope is ' + reg.scope);
       }
+      console.log('Registeration succeeded. Scope is ' + reg.scope);
     })
     .catch(error => {
       //Registeration failed..
