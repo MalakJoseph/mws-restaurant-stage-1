@@ -8,11 +8,10 @@
 * [Credits](#credits)
 * [License](#license)
 
-
 ### About the Project
-* Udacity gives the code for a restaurant review website that lacks `Accessibility` and `Offline Experience`.
+* Udacity gave the code for a restaurant review website that was lacking `Accessibility` and `Offline Experience`.
 * `Responsive Design` also was messed up for different viewport sizes.
-* All i have to do was making the site `Responsive` for different viewport sizes, implement `Accessibility` concept and make the website work offline through `Service Worker`.
+* All I had to do was making the site `Responsive` for different viewport sizes, implement `Accessibility` concept and make the website work offline through `Service Worker`.
 
 ### Steps to run the Project
 You can visit the live demo [here](https://malakjoseph.github.io/restaurant-review-app/).
